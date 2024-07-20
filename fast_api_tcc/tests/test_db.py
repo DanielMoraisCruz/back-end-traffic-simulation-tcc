@@ -1,5 +1,6 @@
-from fast_api_tcc.models import TrafficLight
 from sqlalchemy import select
+
+from fast_api_tcc.SqlAlchemy.models import TrafficLight
 
 
 def test_create_traffic_light_table(session):

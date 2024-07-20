@@ -1,10 +1,10 @@
 import pytest
 from fastapi.testclient import TestClient
-
-from fast_api_tcc.app import app
-from fast_api_tcc.models import table_registry
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
+
+from fast_api_tcc.app import app
+from fast_api_tcc.SqlAlchemy.models import table_registry
 
 
 @pytest.fixture

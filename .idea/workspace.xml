@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a6f3a62-9fb0-4a51-923b-90f08ba780bc" name="Changes" comment="inicio api tcc">
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_api_tcc/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_api_tcc/SqlAlchemy/init_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/SqlAlchemy/init_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/SqlAlchemy/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_api_tcc/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_api_tcc/tests/test_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/tests/test_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danda\PycharmProjects\API-IA-Transito\fast_api_tcc\fast_api_tcc\SqlAlchemy" />
+      <recent name="C:\Users\danda\PycharmProjects\API-IA-Transito\fast_api_tcc\fast_api_tcc" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

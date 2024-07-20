@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 
 class TrafficLight(BaseModel):
-    id: int  # autoincrement
+    id: int
     redDuration: int
     greenDuration: int
     cycleStartTime: int

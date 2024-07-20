@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6f3a62-9fb0-4a51-923b-90f08ba780bc" name="Changes" comment="inicio api tcc">
-      <change afterPath="$PROJECT_DIR$/fast_api_tcc/SqlAlchemy/init_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast_api_tcc/tests/test_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/tests/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/tests/test_app.py" afterDir="false" />
-    </list>
+    <list default="true" id="9a6f3a62-9fb0-4a51-923b-90f08ba780bc" name="Changes" comment="inicio api tcc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

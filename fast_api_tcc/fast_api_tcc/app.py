@@ -1,6 +1,10 @@
 from fastapi import FastAPI
 
-from fast_api_tcc.schemas import SimulationIteration, TrafficLight, PostTrafficLight
+from fast_api_tcc.schemas import (
+    PostTrafficLight,
+    SimulationIteration,
+    TrafficLight,
+)
 
 app = FastAPI()
 
@@ -13,4 +17,3 @@ async def simulation(simulation_iteration_: SimulationIteration):
 @app.post('/traffic_light/', response_model=TrafficLight)
 async def traffic_light(traffic_light_: PostTrafficLight):
     return traffic_light_
-

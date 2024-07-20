@@ -14,7 +14,6 @@ class TrafficLight:
     redDuration: Mapped[int] = mapped_column()
     greenDuration: Mapped[int] = mapped_column()
     cycleStartTime: Mapped[int] = mapped_column()
-    cycleStartTimeOffset: Mapped[int] = mapped_column()
     creater_at: Mapped[datetime] = mapped_column(
         init=False, server_default=func.now()
     )

@@ -1,0 +1,4 @@
+/fast_api_tcc/htmlcov/
+.coverage
+.env
+database.db

@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a6f3a62-9fb0-4a51-923b-90f08ba780bc" name="Changes" comment="inicio api tcc">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/API-IA-Transito.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API-IA-Transito.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/SqlAlchemy/init_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/SqlAlchemy/init_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/fast_api_tcc/SqlAlchemy/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_api_tcc/tests/test_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/tests/test_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_api_tcc/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_api_tcc/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fast_api_tcc/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +81,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inicio api tcc" />

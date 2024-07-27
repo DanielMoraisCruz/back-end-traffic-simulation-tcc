@@ -1,25 +1,37 @@
 from pydantic import BaseModel
 
 
-class TrafficLight(BaseModel):
-    id: int
+class RoadCrossing(BaseModel):
+    roadCrossingId: int
+    simulationId: int
     redDuration: int
     greenDuration: int
     cycleStartTime: int
 
 
-class PostTrafficLight(BaseModel):
+class PostRoadCrossing(BaseModel):
+    simulation_id: int
     redDuration: int
     greenDuration: int
     cycleStartTime: int
 
 
 class SimulationIteration(BaseModel):
-    id: int
+    simulationId: int
     duration: int
     tripAvg: int
     tripPeak: int
     densityPeak: int
     densityAvg: int
     vehiclesTotal: int
-    trafficLights: list[TrafficLight]
+    roadCrossings: list[PostRoadCrossing]
+
+
+class PostSimulationIteration(BaseModel):
+    duration: int
+    tripAvg: int
+    tripPeak: int
+    densityPeak: int
+    densityAvg: int
+    vehiclesTotal: int
+    roadCrossings: list[PostRoadCrossing]

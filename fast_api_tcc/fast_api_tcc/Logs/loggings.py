@@ -17,7 +17,7 @@ line = '%(lineno)d'
 
 basicConfig(
     level=DEBUG,
-    filename='./fast_api_tcc/Logs/log.txt',
+    filename='./fast_api_tcc/Logs/log.tsv',
     filemode='a',
     encoding='utf-8',
     format=f'{asctime}\t{name}\t{line}\t{levelname}\t{message}',

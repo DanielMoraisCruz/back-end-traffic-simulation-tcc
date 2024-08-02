@@ -20,9 +20,7 @@ class SimulationIteration:
     trafficLights: Mapped[list] = mapped_column(
         init=False, relationship='RoadCrossing', back_populates='simulationId'
     )
-    created_at: Mapped[datetime] = mapped_column(
-        init=False, server_default=func.now()
-    )
+    created_at: Mapped[datetime] = mapped_column(init=False, server_default=func.now())
     updated_at: Mapped[datetime] = mapped_column(
         init=False, server_default=func.now(), onupdate=func.now()
     )
@@ -33,15 +31,11 @@ class RoadCrossing:
     __tablename__ = 'Traffic_Light'
 
     roadCrossingtId: Mapped[int] = mapped_column(init=False, primary_key=True)
-    simulation_id: Mapped[int] = mapped_column(
-        foreign_key='SimulationIteration.simulationId'
-    )
+    simulation_id: Mapped[int] = mapped_column(foreign_key='SimulationIteration.simulationId')
     redDuration: Mapped[int] = mapped_column()
     greenDuration: Mapped[int] = mapped_column()
     cycleStartTime: Mapped[int] = mapped_column()
-    creater_at: Mapped[datetime] = mapped_column(
-        init=False, server_default=func.now()
-    )
+    creater_at: Mapped[datetime] = mapped_column(init=False, server_default=func.now())
     updated_at: Mapped[datetime] = mapped_column(
         init=False, server_default=func.now(), onupdate=func.now()
     )

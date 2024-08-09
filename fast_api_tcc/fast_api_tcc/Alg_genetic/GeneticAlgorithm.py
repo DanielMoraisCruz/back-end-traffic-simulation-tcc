@@ -2,8 +2,9 @@ import random
 
 from deap import algorithms, base, creator, tools
 
-
 # Classe que encapsula o algoritmo genético
+
+
 class GeneticAlgorithm:
     def __init__(self, num_simulations, num_agents, num_generations):
         self.num_simulations = num_simulations  # Número de simulações

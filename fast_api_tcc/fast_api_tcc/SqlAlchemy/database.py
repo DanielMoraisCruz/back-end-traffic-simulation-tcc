@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 
-from fast_api_tcc.logs.loggings import Log
+from fast_api_tcc.Logs.loggings import Log
 from fast_api_tcc.settings import Settings
 from fast_api_tcc.SqlAlchemy.models import RoadCrossing, SimulationIteration
 

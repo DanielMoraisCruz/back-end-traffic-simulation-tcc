@@ -1,6 +1,7 @@
 from datetime import datetime
 
-from sqlalchemy.orm import Mapped, mapped_column, registry
+from sqlalchemy import ForeignKey
+from sqlalchemy.orm import Mapped, mapped_column, registry, relationship
 from sqlalchemy.sql import func
 
 table_registry = registry()
@@ -11,18 +12,20 @@ class SimulationIteration:
     __tablename__ = 'Simulation_Iteration'
 
     simulationId: Mapped[int] = mapped_column(init=False, primary_key=True)
-    duration: Mapped[int] = mapped_column()
-    tripAvg: Mapped[int] = mapped_column()
-    tripPeak: Mapped[int] = mapped_column()
-    densityPeak: Mapped[int] = mapped_column()
-    densityAvg: Mapped[int] = mapped_column()
-    vehiclesTotal: Mapped[int] = mapped_column()
-    trafficLights: Mapped[list] = mapped_column(
-        init=False, relationship='RoadCrossing', back_populates='simulationId'
-    )
+    duration: Mapped[int] = mapped_column(nullable=False)
+    tripAvg: Mapped[int] = mapped_column(nullable=False)
+    tripPeak: Mapped[int] = mapped_column(nullable=False)
+    densityPeak: Mapped[int] = mapped_column(nullable=False)
+    densityAvg: Mapped[int] = mapped_column(nullable=False)
+    vehiclesTotal: Mapped[int] = mapped_column(nullable=False)
     created_at: Mapped[datetime] = mapped_column(init=False, server_default=func.now())
     updated_at: Mapped[datetime] = mapped_column(
         init=False, server_default=func.now(), onupdate=func.now()
+    )
+
+    # Definindo o relacionamento corretamente
+    trafficLights: Mapped[list['RoadCrossing']] = relationship(
+        'RoadCrossing', back_populates='simulation'
     )
 
 
@@ -30,12 +33,17 @@ class SimulationIteration:
 class RoadCrossing:
     __tablename__ = 'Traffic_Light'
 
-    roadCrossingtId: Mapped[int] = mapped_column(init=False, primary_key=True)
-    simulation_id: Mapped[int] = mapped_column(foreign_key='SimulationIteration.simulationId')
-    redDuration: Mapped[int] = mapped_column()
-    greenDuration: Mapped[int] = mapped_column()
-    cycleStartTime: Mapped[int] = mapped_column()
-    creater_at: Mapped[datetime] = mapped_column(init=False, server_default=func.now())
-    updated_at: Mapped[datetime] = mapped_column(
-        init=False, server_default=func.now(), onupdate=func.now()
+    roadCrossingId: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    simulation_id: Mapped[int] = mapped_column(
+        ForeignKey('Simulation_Iteration.simulationId'), nullable=False
+    )
+    redDuration: Mapped[int] = mapped_column(nullable=False)
+    greenDuration: Mapped[int] = mapped_column(nullable=False)
+    cycleStartTime: Mapped[int] = mapped_column(nullable=False)
+    created_at: Mapped[datetime] = mapped_column(server_default=func.now())
+    updated_at: Mapped[datetime] = mapped_column(server_default=func.now(), onupdate=func.now())
+
+    # Definição do relacionamento com SimulationIteration
+    simulation: Mapped['SimulationIteration'] = relationship(
+        'SimulationIteration', back_populates='trafficLights'
     )

@@ -7,3 +7,4 @@ database.db
 *.iml
 fast_api_tcc/fast_api_tcc/my_logs/log_test.tsv
 fast_api_tcc/fast_api_tcc/my_logs/log_test.tsv
+fast_api_tcc/SqlAlchemy/log_test.tsv

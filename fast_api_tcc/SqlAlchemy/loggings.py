@@ -7,7 +7,7 @@ class Log:
     def __init__(self, logger_name):
         try:
             # Nome do arquivo de log
-            log_filename = './fast_api_tcc/Logs/log_test.tsv'
+            log_filename = './SqlAlchemy/log_test.tsv'
 
             # Gera um hash único para a execução
             self.execution_key = self.new_key()

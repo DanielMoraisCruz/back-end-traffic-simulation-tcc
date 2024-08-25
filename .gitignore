@@ -5,5 +5,5 @@ database.db
 /.idea
 .idea
 *.iml
-fast_api_tcc/fast_api_tcc/Logs/log_test.tsv
-fast_api_tcc/fast_api_tcc/Logs/log_test.tsv
+fast_api_tcc/fast_api_tcc/my_logs/log_test.tsv
+fast_api_tcc/fast_api_tcc/my_logs/log_test.tsv

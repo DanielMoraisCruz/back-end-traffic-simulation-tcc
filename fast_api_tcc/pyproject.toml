@@ -26,7 +26,7 @@ addopts = '-p no:warnings'
 
 [tool.ruff]
 line-length = 100
-extend-exclude = ['migrations']
+extend-exclude = ['Migrations']
 
 [tool.ruff.lint]
 preview = true
@@ -37,7 +37,7 @@ preview = true
 quote-style = 'single'
 
 [tool.taskipy.tasks]
-run = 'fastapi dev fast_api_tcc/app.py'
+run = 'fastapi dev app.py'
 format = 'ruff check . --fix && ruff format .'
 lint = 'ruff check . && ruff check . --diff'
 pre_test = 'task lint'

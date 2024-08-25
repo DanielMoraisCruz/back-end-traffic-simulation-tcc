@@ -47,3 +47,15 @@ class RoadCrossing:
     simulation: Mapped['SimulationIteration'] = relationship(
         'SimulationIteration', back_populates='trafficLights'
     )
+
+
+@table_registry.mapped_as_dataclass
+class ConfigAlgGen:
+    __tablename__ = 'Config_AlgGen'
+
+    configId: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    population: Mapped[int] = mapped_column(nullable=False)
+    num_selecteds: Mapped[int] = mapped_column(nullable=False)
+    mutation_rate: Mapped[float] = mapped_column(nullable=False)
+    created_at: Mapped[datetime] = mapped_column(server_default=func.now())
+    updated_at: Mapped[datetime] = mapped_column(server_default=func.now(), onupdate=func.now())

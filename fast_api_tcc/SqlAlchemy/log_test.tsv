@@ -1,0 +1,101 @@
+Key Execution	Timestamp	Logger Name	Line Number	Log Level	Message
+b0c75cb8-51dc-43a2-87bc-80097e205b81	-	-	-	-	First Execution
+b0c75cb8-51dc-43a2-87bc-80097e205b81	2024-08-10 15:42:02,031	database	48	INFO	Log criado com sucesso
+a7383238-f93c-47b4-8f5a-349f2ae4b208	-	-	-	-	First Execution
+b0c75cb8-51dc-43a2-87bc-80097e205b81	2024-08-10 15:42:02,035	app	48	INFO	Log criado com sucesso
+75f21894-ee7b-4fcd-8da3-374cdf75c240	-	-	-	-	First Execution
+75f21894-ee7b-4fcd-8da3-374cdf75c240	2024-08-10 15:44:13,109	database	48	INFO	Log criado com sucesso
+c28e4093-063c-404c-b141-eb7bbd20bf94	-	-	-	-	First Execution
+75f21894-ee7b-4fcd-8da3-374cdf75c240	2024-08-10 15:44:13,112	app	48	INFO	Log criado com sucesso
+bb299647-10e4-4713-b27e-1162fc7164ee	-	-	-	-	First Execution
+bb299647-10e4-4713-b27e-1162fc7164ee	2024-08-10 15:46:31,385	database	48	INFO	Log criado com sucesso
+8371ae70-faa4-4def-965d-3de43326e0a8	-	-	-	-	First Execution
+bb299647-10e4-4713-b27e-1162fc7164ee	2024-08-10 15:46:31,388	app	48	INFO	Log criado com sucesso
+d51dc71c-75de-4d7f-b5fa-b467eb33b450	-	-	-	-	First Execution
+d51dc71c-75de-4d7f-b5fa-b467eb33b450	2024-08-10 15:50:08,459	database	48	INFO	Log criado com sucesso
+669d906a-2663-4ddc-9f01-0dcbc2cc2524	-	-	-	-	First Execution
+d51dc71c-75de-4d7f-b5fa-b467eb33b450	2024-08-10 15:50:08,462	app	48	INFO	Log criado com sucesso
+ca950ef3-f05d-443e-b334-d02dcb63bfe0	-	-	-	-	First Execution
+ca950ef3-f05d-443e-b334-d02dcb63bfe0	2024-08-10 15:50:28,889	database	48	INFO	Log criado com sucesso
+9e1b854f-e827-4234-8ab0-7123717fe10d	-	-	-	-	First Execution
+ca950ef3-f05d-443e-b334-d02dcb63bfe0	2024-08-10 15:50:28,893	app	48	INFO	Log criado com sucesso
+562ab26f-753e-4024-8aa5-4f894a98323c	-	-	-	-	First Execution
+562ab26f-753e-4024-8aa5-4f894a98323c	2024-08-10 15:56:45,331	database	48	INFO	Log criado com sucesso
+4661952c-f4c4-4b0c-a985-2c15ee6b3100	-	-	-	-	First Execution
+562ab26f-753e-4024-8aa5-4f894a98323c	2024-08-10 15:56:45,341	app	48	INFO	Log criado com sucesso
+596cf591-a45e-45fc-badd-b2f80ae6632f	-	-	-	-	First Execution
+596cf591-a45e-45fc-badd-b2f80ae6632f	2024-08-12 20:42:03,541	database	48	INFO	Log criado com sucesso
+7498d090-c004-4720-8bce-7c07297c21b9	-	-	-	-	First Execution
+596cf591-a45e-45fc-badd-b2f80ae6632f	2024-08-12 20:42:03,545	app	48	INFO	Log criado com sucesso
+861a1b23-7d88-4ea8-85a3-6604f71617bc	-	-	-	-	First Execution
+861a1b23-7d88-4ea8-85a3-6604f71617bc	2024-08-13 20:06:06,436	database	48	INFO	Log criado com sucesso
+cffa72c2-23a5-4a1b-adad-9af1892a6f08	-	-	-	-	First Execution
+861a1b23-7d88-4ea8-85a3-6604f71617bc	2024-08-13 20:06:06,446	app	48	INFO	Log criado com sucesso
+c1cd20c5-4255-4adf-a469-767db0355363	-	-	-	-	First Execution
+c1cd20c5-4255-4adf-a469-767db0355363	2024-08-13 20:07:52,506	database	48	INFO	Log criado com sucesso
+db86372e-2298-45fc-98f3-97834d2ab7d6	-	-	-	-	First Execution
+c1cd20c5-4255-4adf-a469-767db0355363	2024-08-13 20:07:52,519	app	48	INFO	Log criado com sucesso
+4f198f01-c8ce-45de-8b50-8b1bf44fe66b	-	-	-	-	First Execution
+4f198f01-c8ce-45de-8b50-8b1bf44fe66b	2024-08-13 20:09:16,484	database	48	INFO	Log criado com sucesso
+dcc5e27f-022b-4c02-bbb3-183059ad1ff6	-	-	-	-	First Execution
+4f198f01-c8ce-45de-8b50-8b1bf44fe66b	2024-08-13 20:09:16,486	app	48	INFO	Log criado com sucesso
+d9a41891-5a33-4bc5-8fd0-3d7aa5b8a1ad	-	-	-	-	First Execution
+d9a41891-5a33-4bc5-8fd0-3d7aa5b8a1ad	2024-08-13 20:13:32,276	database	48	INFO	Log criado com sucesso
+ed0fefcf-8210-49df-9f91-13c24045261c	-	-	-	-	First Execution
+d9a41891-5a33-4bc5-8fd0-3d7aa5b8a1ad	2024-08-13 20:13:32,287	app	48	INFO	Log criado com sucesso
+7e40b64d-a297-435a-b207-e92cd9d014c4	-	-	-	-	First Execution
+7e40b64d-a297-435a-b207-e92cd9d014c4	2024-08-13 20:18:59,645	database	48	INFO	Log criado com sucesso
+3feb310e-712c-4067-b595-e28452d687d2	-	-	-	-	First Execution
+7e40b64d-a297-435a-b207-e92cd9d014c4	2024-08-13 20:18:59,656	app	48	INFO	Log criado com sucesso
+8871322f-b7cb-4f24-a98f-480f582577b5	-	-	-	-	First Execution
+8871322f-b7cb-4f24-a98f-480f582577b5	2024-08-13 20:19:31,620	database	48	INFO	Log criado com sucesso
+b9ec68c1-ab1e-4f38-b621-ddf3c984d6b5	-	-	-	-	First Execution
+8871322f-b7cb-4f24-a98f-480f582577b5	2024-08-13 20:19:31,625	app	48	INFO	Log criado com sucesso
+5c3b9c91-1228-4068-a625-548c2385461f	-	-	-	-	First Execution
+5c3b9c91-1228-4068-a625-548c2385461f	2024-08-13 20:21:01,748	database	48	INFO	Log criado com sucesso
+0fdf8307-decd-404e-8927-3bccb1f9c6ba	-	-	-	-	First Execution
+5c3b9c91-1228-4068-a625-548c2385461f	2024-08-13 20:21:01,755	app	48	INFO	Log criado com sucesso
+64cdcd46-cd7f-4e82-bcdf-02983f5aa2b0	-	-	-	-	First Execution
+64cdcd46-cd7f-4e82-bcdf-02983f5aa2b0	2024-08-19 20:00:12,310	database	48	INFO	Log criado com sucesso
+3d2a7da4-4e9f-481c-90f1-731d050235be	-	-	-	-	First Execution
+64cdcd46-cd7f-4e82-bcdf-02983f5aa2b0	2024-08-19 20:00:12,315	app	48	INFO	Log criado com sucesso
+962d4409-83b6-4362-959a-755d3ec1db0b	-	-	-	-	First Execution
+962d4409-83b6-4362-959a-755d3ec1db0b	2024-08-19 20:00:44,840	database	48	INFO	Log criado com sucesso
+e4ab8996-2617-4337-b232-bc597f9f88d1	-	-	-	-	First Execution
+962d4409-83b6-4362-959a-755d3ec1db0b	2024-08-19 20:00:44,840	app	48	INFO	Log criado com sucesso
+2b337002-1291-4112-99cf-7078d3fe0b0e	-	-	-	-	First Execution
+2b337002-1291-4112-99cf-7078d3fe0b0e	2024-08-19 20:01:33,251	database	48	INFO	Log criado com sucesso
+c3783b39-1969-45bb-9527-124d238f1ca6	-	-	-	-	First Execution
+2b337002-1291-4112-99cf-7078d3fe0b0e	2024-08-19 20:01:33,261	app	48	INFO	Log criado com sucesso
+5cd517c4-7674-426f-b3be-a53be06331bd	-	-	-	-	First Execution
+5cd517c4-7674-426f-b3be-a53be06331bd	2024-08-19 20:02:55,080	database	48	INFO	Log criado com sucesso
+96b277b4-760f-4bf7-b5b7-93cf5089704c	-	-	-	-	First Execution
+5cd517c4-7674-426f-b3be-a53be06331bd	2024-08-19 20:02:55,090	app	48	INFO	Log criado com sucesso
+f7922943-c25d-4d99-b2b0-4dd0c4fa8fdd	-	-	-	-	First Execution
+f7922943-c25d-4d99-b2b0-4dd0c4fa8fdd	2024-08-19 20:05:29,161	database	48	INFO	Log criado com sucesso
+50604776-4057-4943-a107-a4ccd59c9c3b	-	-	-	-	First Execution
+f7922943-c25d-4d99-b2b0-4dd0c4fa8fdd	2024-08-19 20:05:29,161	app	48	INFO	Log criado com sucesso
+d0eae820-5638-4547-b675-7f5222d305c8	-	-	-	-	First Execution
+d0eae820-5638-4547-b675-7f5222d305c8	2024-08-19 20:09:12,830	database	48	INFO	Log criado com sucesso
+efd47d24-9dd9-4aef-8d1c-5cfabd783cd5	-	-	-	-	First Execution
+d0eae820-5638-4547-b675-7f5222d305c8	2024-08-19 20:09:12,835	app	48	INFO	Log criado com sucesso
+a2ceec5e-937d-468e-aa20-64e122756e7d	-	-	-	-	First Execution
+a2ceec5e-937d-468e-aa20-64e122756e7d	2024-08-25 16:00:02,565	database	48	INFO	Log criado com sucesso
+17fc7d26-2be8-4167-a507-ecd5b88e4699	-	-	-	-	First Execution
+17fc7d26-2be8-4167-a507-ecd5b88e4699	2024-08-25 18:59:16,054	database	48	INFO	Log criado com sucesso
+68d2eca6-de60-4afc-a1b6-67d4c03c8cb1	-	-	-	-	First Execution
+68d2eca6-de60-4afc-a1b6-67d4c03c8cb1	2024-08-25 19:02:50,096	database	48	INFO	Log criado com sucesso
+073a29fe-5123-4927-a5ef-fea1e281583f	-	-	-	-	First Execution
+073a29fe-5123-4927-a5ef-fea1e281583f	2024-08-25 19:04:16,568	database	48	INFO	Log criado com sucesso
+073a29fe-5123-4927-a5ef-fea1e281583f	2024-08-25 19:04:16,795	asyncio	634	DEBUG	Using proactor: IocpProactor
+ced663e9-ab30-4d09-bc91-20c1925753fa	-	-	-	-	First Execution
+ced663e9-ab30-4d09-bc91-20c1925753fa	2024-08-25 19:07:13,843	database	48	INFO	Log criado com sucesso
+371b6c96-05b7-49db-b9e9-1f067c0e7075	-	-	-	-	First Execution
+371b6c96-05b7-49db-b9e9-1f067c0e7075	2024-08-25 19:07:15,035	database	48	INFO	Log criado com sucesso
+ced663e9-ab30-4d09-bc91-20c1925753fa	2024-08-25 19:07:15,126	watchfiles.main	294	DEBUG	1 change detected: {(<Change.modified: 2>, 'C:\\Users\\danda\\PycharmProjects\\API-IA-Transito\\fast_api_tcc\\SqlAlchemy\\log_test.tsv')}
+ced663e9-ab30-4d09-bc91-20c1925753fa	2024-08-25 19:09:48,051	watchfiles.main	294	DEBUG	1 change detected: {(<Change.modified: 2>, 'C:\\Users\\danda\\PycharmProjects\\API-IA-Transito\\fast_api_tcc\\SqlAlchemy\\log_test.tsv')}
+ced663e9-ab30-4d09-bc91-20c1925753fa	2024-08-25 19:09:52,308	watchfiles.main	294	DEBUG	1 change detected: {(<Change.modified: 2>, 'C:\\Users\\danda\\PycharmProjects\\API-IA-Transito\\fast_api_tcc\\SqlAlchemy\\log_test.tsv')}
+ced663e9-ab30-4d09-bc91-20c1925753fa	2024-08-25 19:10:06,905	watchfiles.main	294	DEBUG	1 change detected: {(<Change.modified: 2>, 'C:\\Users\\danda\\PycharmProjects\\API-IA-Transito\\fast_api_tcc\\SqlAlchemy\\log_test.tsv')}
+ced663e9-ab30-4d09-bc91-20c1925753fa	2024-08-25 19:10:21,916	watchfiles.main	294	DEBUG	1 change detected: {(<Change.modified: 2>, 'C:\\Users\\danda\\PycharmProjects\\API-IA-Transito\\fast_api_tcc\\SqlAlchemy\\log_test.tsv')}
+ced663e9-ab30-4d09-bc91-20c1925753fa	2024-08-25 19:10:36,967	watchfiles.main	294	DEBUG	1 change detected: {(<Change.modified: 2>, 'C:\\Users\\danda\\PycharmProjects\\API-IA-Transito\\fast_api_tcc\\SqlAlchemy\\log_test.tsv')}
+ced663e9-ab30-4d09-bc91-20c1925753fa	2024-08-25 19:10:46,751	watchfiles.main	294	DEBUG	1 change detected: {(<Change.modified: 2>, 'C:\\Users\\danda\\PycharmProjects\\API-IA-Transito\\fast_api_tcc\\SqlAlchemy\\log_test.tsv')}
